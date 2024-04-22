@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 20px;
+    background: linear-gradient(100.27deg, #EFF3FD 33.17%, rgba(239, 243, 253, 0) 122.24%);
+    border-radius: 20px;
+}
+.profile{
+    display: flex;
+    gap: 5px;
+}
+.profile h2,h4{
+    color: blue;
+}
+.status{
+    display: flex;
+    align-self: flex-end;
+    gap:5px;
+    color: blue;
+}
+.status{
+    font-weight: 600;
+}
+.green_status{
+    align-self: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+
+}

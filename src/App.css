@@ -1,0 +1,21 @@
+
+.App {
+  display: grid;
+  grid-template-areas:'header header header header header header header header' 'menu main main main main main main main';
+  max-width: 100%;
+  max-height: 100%;
+}
+.nav-item { grid-area: header;
+z-index: 3; }
+.side-item { grid-area: menu;
+  z-index: 2;  }
+.content-item { grid-area: main; 
+  z-index: 1; }
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+li{
+  list-style-type: none;
+}
+
